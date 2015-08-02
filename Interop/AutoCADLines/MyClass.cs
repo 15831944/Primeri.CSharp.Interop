@@ -1,10 +1,25 @@
 ﻿using System;
 
+using Autodesk.AutoCAD.ApplicationServices;
+using Autodesk.AutoCAD.DatabaseServices;
+using Autodesk.AutoCAD.Runtime;
+using Autodesk.AutoCAD.Geometry;
+
+
 namespace AutoCADLines
 {
-	public class MyClass
+	public class ACADLines
 	{
-		public MyClass ()
+		[CommandMethod("testLine")]
+		public static void testLine ()
+		{
+
+
+		}
+
+
+
+		public ACADLines ()
 		{
 		}
 	}
